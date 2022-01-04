@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Jon, an engineer with a passion for building. My journey started with building airline simulators back in college and has expanded to tinkering in everything from game development to mobile development. Today my focus has been on building the next generation of applications on Web3 and getting my hands dirty building on Ethereum, Avalanche, and Solana.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,12 +11,13 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "The Warriors NFT Mint",
+        "startDate": "2021",
+        "description": "A fun NFT project based off the movie The Warriors. Launched on Solana DevNet December 4th - Creating 1 of 1s for each character in the movie - completely onchain. Feel free to grab one if any are left! https://warriors-nft-app.vercel.app/",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/warriors/p0.jpeg",
+          "images/portfolio/warriors/p6.png"
+
         ],
         "url": "",
         "technologies": [

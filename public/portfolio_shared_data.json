@@ -1,20 +1,16 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Jon Goldson",
+      "titles": [ "Web3 Builder", "Blockchain Engineer", "Web Developer", "Mobile App Developer", "Senior TPM" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/jgoldson",
           "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
         }
+
       ],
-      "image": "myProfile.jpg"
+      "image": "jongoldson.jpg"
     },
     "skills": {
       "icons": [
