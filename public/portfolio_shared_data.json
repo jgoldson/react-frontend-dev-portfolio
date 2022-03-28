@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Jon Goldson",
-      "titles": [ "Web3 Builder", "Blockchain Engineer", "Web Developer", "Mobile App Developer", "Senior TPM" ],
+      "titles": [ "Web3 Buildor", "Blockchain Engineer", "Mobile App Developer", "Senior TPM" ],
       "social": [
         {
           "name": "github",
@@ -15,24 +15,9 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
         },
         {
           "name": "JavaScript",
@@ -40,14 +25,19 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "Solidity",
+          "class": "devicon-solidity-plain",
           "level": "75"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "Rust",
+          "class": "devicon-rust-plain",
+          "level": "60"
         },
         {
           "name": "C#",
@@ -55,10 +45,27 @@
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Swift",
+          "class": "devicon-swift-plain",
+          "level": "95"
+        },
+        {
+          "name": "Unity",
+          "class": "devicon-unity-original",
+          "level": "95"
+        },
+
+
+
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "75"
         }
+
+
+
+
       ]
     }
   }

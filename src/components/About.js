@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
-import rustIcon from '@iconify/icons-logos/rust';
-import swiftIcon from '@iconify/icons-logos/swift';
-import unityIcon from '@iconify/icons-logos/unity';
+import ethIcon from '@iconify/icons-logos/ethereum';
+import solIcon from '@iconify/icons-cryptocurrency/sol'
+import atomSymbol from '@iconify/icons-twemoji/atom-symbol';
+
 
 class About extends Component {
   render() {
@@ -34,21 +32,18 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={rustIcon}
+                    icon={ethIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
+                    icon={solIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={swiftIcon}
+                    icon={atomSymbol}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
-                  <Icon
-                    icon={unityIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+
                 </span>
               </div>
             </div>
@@ -84,7 +79,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}  </span>
                     <br />
                     <br />
                     {about}

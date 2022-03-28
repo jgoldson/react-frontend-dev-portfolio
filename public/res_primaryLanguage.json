@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Jon, an engineer with a passion for building. My journey started with building airline simulators back in college and has expanded to tinkering in everything from game development to mobile development. Today my focus has been on building the next generation of applications on Web3 and getting my hands dirty building on Ethereum, Avalanche, and Solana.",
+      "description_header": "Hello",
+      "description": "👋 I'm Jon, a leader with a passion for building. My journey started with building airline simulators back in college and has expanded to tinkering in everything from game development to mobile development. Today my focus has been on building the next generation of applications on Web3 and getting my hands dirty building on Ethereum, Avalanche, and Solana.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -19,28 +19,24 @@
           "images/portfolio/warriors/p6.png"
 
         ],
-        "url": "",
+        "url": "https://warriors-nft-app.vercel.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-rust-plain",
+            "name": "Rust"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "GardenDAO",
+        "startDate": "2022",
+        "description": "A community DAO for a community garden, completely on-chain. Community members funded the garden in return for governance tokens which are then used to vote on decesions (What to plant where, who will manage which plants, etc). Features gated NFT access and on-chain executable proposals",
         "images": [
-          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/gardenDAO/garden.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
         "url": "https://github.com",
@@ -50,70 +46,94 @@
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-solidity-plain",
+            "name": "Solidity"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Space Defender [NFT Game]",
+        "startDate": "2022",
+        "description": "<In Progress> Latest project in NFT gaming - a classic space-shooter with a modern twist. Play to earn ships which you own!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p1.png",
           "images/portfolio/adventure/p2.jpg"
         ],
-        "url": "https://github.com",
+        
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
           {
             "class": "devicon-csharp-plain",
             "name": "C#"
+          },
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-solidity-plain",
+            "name": "Solidity"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Doordash",
+        "title": "Sr. Technical Program Manager",
+        "years": "2020 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Payments"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Distributed Systems",
+          "Microservices",
+          "System Design",
+          "Stakeholder Management",
+          "Dependency Tracking"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Propeller",
+        "title": "Consultant",
+        "years": "2019 - 2020",
         "mainTech": [
-          "Angular 7/8"
+          "Technology & Management Consulting"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Enterprise System Refactoring",
+          "Cloud Architecture",
+          "Cybersecurity",
+          "Data Migration"
+        ]
+      }, {
+        "company": "Princeton Consultants",
+        "title": "Consultant",
+        "years": "2018 - 2019",
+        "mainTech": [
+          "Technology & Management Consulting"
+        ],
+        "technologies": [
+          "Program Management",
+          "System Design",
+          "Data Modeling",
+          "QA Automation",
+          "DevOps"
+        ]
+      },
+      {
+        "company": "General Electric",
+        "title": "Digital Transformation Manager",
+        "years": "2014 - 2018",
+        "mainTech": [
+          "Technology & Management Consulting"
+        ],
+        "technologies": [
+          "Digital Transformation",
+          "Process Design",
+          "Machine Learning & AI"
+          
         ]
       }
+
     ]
   }
