@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Jon Goldson",
-      "titles": [ "Web3 Buildor", "Blockchain Engineer", "Mobile App Developer", "Senior TPM" ],
+      "titles": [ "Game Developer", "Technical Program Manager", "Systems Architect" ],
       "social": [
         {
           "name": "github",
@@ -15,14 +15,34 @@
     "skills": {
       "icons": [
         {
-          "name": "React",
+          "name": "Unreal Engine",
           "class": "devicon-react-plain",
           "level": "80"
         },
         {
+          "name": "Unity",
+          "class": "devicon-unity-original",
+          "level": "85"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
+          "level": "75"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "90"
+        },
+        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "90"
         },
         {
           "name": "TypeScript",
@@ -40,27 +60,14 @@
           "level": "60"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
           "name": "Swift",
           "class": "devicon-swift-plain",
           "level": "95"
         },
         {
-          "name": "Unity",
-          "class": "devicon-unity-original",
-          "level": "95"
-        },
-
-
-
-        {
           "name": "Java",
           "class": "devicon-java-plain",
-          "level": "75"
+          "level": "70"
         }
 
 

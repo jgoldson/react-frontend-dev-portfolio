@@ -1,65 +1,63 @@
 {
     "basic_info": {
       "description_header": "Hello",
-      "description": "👋 I'm Jon, a leader with a passion for building. My journey started with building airline simulators back in college and has expanded to tinkering in everything from game development to mobile development. Today my focus has been on building the next generation of applications on Web3 and getting my hands dirty building on Ethereum, Avalanche, Solana and Cosmos.",
+      "description": "👋 I'm Jon, a leader with a passion for building. My journey started with building airline simulators back in college and has expanded to tinkering in everything from web & mobile apps to games and blockchains. Today my focus has been helping build some of the world's most creative and fun AAA games. I love taking immense, multi-year technical initiatives and leading them to a successful launch, bringing awesome things to people around the world. ",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "projects": "Personal Projects",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
     "projects": [
       {
-        "title": "The Warriors NFT Mint",
-        "startDate": "2021",
-        "description": "A fun NFT project based off the movie The Warriors. Launched on Solana DevNet December 4th - Creating 1 of 1s for each character in the movie - completely onchain. Feel free to grab one if any are left! https://warriors-nft-app.vercel.app/",
+        "title": "Bravont",
+        "startDate": "2023",
+        "description": "A futuristic first person shooter. Destroy the hostiles and reclaim your base. Demo Video: https://www.youtube.com/watch?v=_6ADoeowbhc",
         "images": [
-          "images/portfolio/warriors/p0.jpeg",
-          "images/portfolio/warriors/p6.png"
+          "images/portfolio/bravont/paragon.png"
 
         ],
-        "url": "https://warriors-nft-app.vercel.app/",
+        "url": "https://goldio.itch.io/bravont-demo",
         "technologies": [
           {
-            "class": "devicon-react-plain",
-            "name": "React"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           },
           {
-            "class": "devicon-rust-plain",
-            "name": "Rust"
+            "class": "devicon-unrealengine-original",
+            "name": "Unreal Engine"
           }
         ]
       },
       {
-        "title": "GardenDAO",
+        "title": "Desert Tank Assault",
         "startDate": "2022",
-        "description": "A community DAO for a community garden, completely on-chain. Community members funded the garden in return for governance tokens which are then used to vote on decesions (What to plant where, who will manage which plants, etc). Features gated NFT access and on-chain executable proposals",
+        "description": "This is a demo of a tank vs turret assault style game placed in an Egyptian city. ",
         "images": [
-          "images/portfolio/gardenDAO/garden.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/tank/tank1.png",
+          "images/portfolio/tank/tank4.png"
         ],
-        "url": "https://github.com",
+        "url": "https://goldio.itch.io/desert-tank-assault",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           },
           {
-            "class": "devicon-solidity-plain",
-            "name": "Solidity"
+            "class": "devicon-unrealengine-original",
+            "name": "Unreal Engine"
           }
         ]
       },
       {
-        "title": "Space Defender [NFT Game]",
-        "startDate": "2022",
-        "description": "<In Progress> Latest project in NFT gaming - a classic space-shooter with a modern twist. Play to earn ships which you own!",
+        "title": "Space Defender",
+        "startDate": "2021",
+        "description": "A classic space-shooter with a modern twist. Alone in the universe, can you fight your way back home?",
         "images": [
-          "images/portfolio/adventure/p1.png",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/spaceDefender/titlescreen.png"
         ],
-        
+        "url": "https://goldio.itch.io/space-adventure",
         "technologies": [
           {
             "class": "devicon-csharp-plain",
@@ -68,19 +66,29 @@
           {
             "class": "devicon-unity-original",
             "name": "Unity"
-          },
-          {
-            "class": "devicon-solidity-plain",
-            "name": "Solidity"
           }
         ]
       }
     ],
     "experience": [
       {
+        "company": "Riot Games",
+        "title": "Staff Technical Program Manager",
+        "years": "2022 - present",
+        "mainTech": [
+          "Games"
+        ],
+        "technologies": [
+          "Large Scale Cross-Org Programs",
+          "Central Technology & Platforms",
+          "Game Development Lifecycle",
+          "Cyber Security"
+        ]
+      },
+      {
         "company": "Doordash",
         "title": "Sr. Technical Program Manager",
-        "years": "2020 - present",
+        "years": "2020 - 2022",
         "mainTech": [
           "Payments"
         ],
