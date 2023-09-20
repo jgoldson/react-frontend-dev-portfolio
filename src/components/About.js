@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import ethIcon from '@iconify/icons-logos/ethereum';
-import solIcon from '@iconify/icons-cryptocurrency/sol'
-import atomSymbol from '@iconify/icons-twemoji/atom-symbol';
-
+import ethIcon from "@iconify/icons-logos/ethereum";
+import solIcon from "@iconify/icons-cryptocurrency/sol";
+import atomSymbol from "@iconify/icons-twemoji/atom-symbol";
+import unrealengineIcon from "@iconify/icons-simple-icons/unrealengine";
+import unityIcon from "@iconify/icons-logos/unity";
+import reactIcon from "@iconify/icons-logos/react";
 
 class About extends Component {
   render() {
@@ -31,19 +33,6 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={ethIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={solIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={atomSymbol}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-
                 </span>
               </div>
             </div>
@@ -79,7 +68,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello}  </span>
+                    <span className="wave">{hello} </span>
                     <br />
                     <br />
                     {about}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
-class Projects extends Component {
+class Games extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,7 +17,7 @@ class Projects extends Component {
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
+      var sectionName = this.props.resumeBasicInfo.section_name.games;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
@@ -31,7 +31,7 @@ class Projects extends Component {
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
-                    height="250"
+                    height="230"
                     style={{
                       marginBottom: 0,
                       paddingBottom: 0,
@@ -71,4 +71,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Games;

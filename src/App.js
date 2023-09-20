@@ -6,10 +6,10 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Games from "./components/Games";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -29,11 +29,7 @@ class App extends Component {
     this.loadResumeFromPath(resumePath);
   }
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    
-
-   
-  }
+  swapCurrentlyActiveLanguage(oppositeLangIconId) {}
 
   componentDidMount() {
     this.loadSharedData();
@@ -84,25 +80,29 @@ class App extends Component {
                 window.$secondaryLanguageIconId
               )
             }
-            style={{ margin:"auto", display:"block" }}
+            style={{ margin: "auto", display: "block" }}
           >
             <span
               className="iconify language-icon mr-auto"
               data-icon="twemoji-flag-for-flag-united-states"
-
               id={window.$primaryLanguageIconId}
             ></span>
           </div>
-         
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+        <div>
+          <Games
+            resumeProjects={this.state.resumeData.games}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Projects
+            resumeProjects={this.state.resumeData.projects}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </div>
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}

@@ -4,21 +4,25 @@
       "description": "👋 I'm Jon, a leader with a passion for building. My journey started with building airline simulators back in college and has expanded to tinkering in everything from web & mobile apps to games and blockchains. Today my focus has been helping build some of the world's most creative and fun AAA games. I love taking immense, multi-year technical initiatives and leading them to a successful launch, bringing awesome things to people around the world. ",
       "section_name": {
         "about": "About me",
-        "projects": "Personal Projects",
+        "games": "Games",
+        "projects": "Projects",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
-    "projects": [
+    "games": [
       {
         "title": "Bravont",
         "startDate": "2023",
-        "description": "A futuristic first person shooter. Destroy the hostiles and reclaim your base. Demo Video: https://www.youtube.com/watch?v=_6ADoeowbhc",
+        "description": "A multiplayer sci-fi shooter where players can lock on to the ceiling, doubling the number of places you and your enemies can appear. Website: https://bravont.vercel.app | Trailer: https://www.youtube.com/watch?v=iM5zmDBRtiI",
         "images": [
-          "images/portfolio/bravont/paragon.png"
-
+          "images/portfolio/bravont/paragon.png",
+          "images/portfolio/bravont/s5.png",
+          "images/portfolio/bravont/s6.png",
+          "images/portfolio/bravont/s2.png",
+          "images/portfolio/bravont/s3.png"
         ],
-        "url": "https://goldio.itch.io/bravont-demo",
+        "url": "https://goldio.itch.io/bravont",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -66,6 +70,48 @@
           {
             "class": "devicon-unity-original",
             "name": "Unity"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "AI Wrestling",
+        "startDate": "2023",
+        "description": "Inspired by AI Town, the AI Wrestling league (WAI) is a fully autonomous league where AI wrestlers interact and compete for the world championship. Note: due to the cost of running the OpenAI API this project has been put on hold",
+        "images": [
+          "images/portfolio/WAI/s1.png",
+          "images/portfolio/WAI/s2.png",
+          "images/portfolio/WAI/s3.png"
+        ],
+        "url": "https://wai.fly.dev",
+        "technologies": [
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TS"
+          }
+        ]
+      },
+      {
+        "title": "Board Gamers",
+        "startDate": "2022",
+        "description": "Looking to roll some dice but your friends are too busy to play? Or perhaps you are looking for some new adventurers to join your party? Board Gamers is an app for creating and managing games with local players. Browse games happening near you, or create a new one for that shiny new game you just bought.",
+        "images": [
+          "images/portfolio/boardgamers/splash.png"
+        ],
+        "url": "https://github.com/jgoldson/Board-Gamers",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-apple-original",
+            "name": "iOS"
+          },
+          {
+            "class": "devicon-android-plain",
+            "name": "Android"
           }
         ]
       }
