@@ -21,9 +21,7 @@ class Footer extends Component {
 
           <div className="copyright py-4 text-center">
             <div className="container">
-              <small>
-                Contact: <a>golds.xyz@gmail.com</a>
-              </small>
+              <small>Contact: golds.xyz@gmail.com</small>
             </div>
           </div>
         </div>
