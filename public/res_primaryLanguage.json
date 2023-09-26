@@ -57,9 +57,11 @@
       {
         "title": "Space Defender",
         "startDate": "2021",
-        "description": "A classic space-shooter with a modern twist. Alone in the universe, can you fight your way back home?",
+        "description": "Browser-based classic space-shooter with a modern twist. Alone in the universe, can you fight your way back home?",
         "images": [
-          "images/portfolio/spaceDefender/titlescreen.png"
+          "images/portfolio/spaceDefender/titlescreen.png",
+          "images/portfolio/spaceDefender/sd1.png",
+          "images/portfolio/spaceDefender/sd2.png"
         ],
         "url": "https://goldio.itch.io/space-adventure",
         "technologies": [
