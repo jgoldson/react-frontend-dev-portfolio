@@ -353,7 +353,7 @@ header h2 {
 
 #portfolio {
 	background: #efe1bd;
-	padding-bottom: 1.5%;
+	
 }
 
 .portfolio-item {
@@ -376,6 +376,11 @@ header h2 {
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
 	font-size: 1.5rem;
+}
+
+.portfolio-projects {
+	background: #efe1bd;
+	padding-bottom: 5%;
 }
 
 @media (min-width: 576px) {
