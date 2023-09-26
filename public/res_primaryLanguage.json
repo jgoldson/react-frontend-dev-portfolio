@@ -114,6 +114,25 @@
             "name": "Android"
           }
         ]
+      },
+      {
+        "title": "Garden DAO",
+        "startDate": "2021",
+        "description": "GardenDAO is a decentralized autonomous organization created to manage a local community garden. Members contributed various resources to receive tokens that provide voting power in key decisions for the garden, such as what to plant where.",
+        "images": [
+          "images/portfolio/gardenDAO/garden.jpg"
+        ],
+        "url": "https://gardendao.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-solidity-plain",
+            "name": "Solidity"
+          }
+        ]
       }
     ],
     "experience": [
